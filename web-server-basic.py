@@ -6,7 +6,6 @@ def application(env,start_response):
     headers = [("Content-Type", "text/html")]
 
     start_response(status, headers)
-    
 
     return [response]
 
